@@ -1,9 +1,21 @@
-h3 {
-    color: blueviolet;
+
+
+
+.intro {
+    padding:60px 0px;
+
 }
 
+.intro h1{
+    border:solid black 2px;
+    width: 120px;
+    margin:auto;
+    text-align: center;
+    font-family: geo;
+    font-size: 36px
+}
 
 .projects img {
     width: 33%;
+    margin: 1px;
 }
-
