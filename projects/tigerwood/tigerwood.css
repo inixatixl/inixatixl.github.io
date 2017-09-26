@@ -1,15 +1,9 @@
 
 body {
-    background-color:white;
+    background-color:snow;
 }
-
 
 .logo  {
-    font-family:iceberg;
-    font-size:60px;
+    font-family: iceberg;
+    font-size: 60px;
 }
-
-.description {
-    font-size:12px;
-}
-
