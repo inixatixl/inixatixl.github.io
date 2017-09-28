@@ -20,7 +20,8 @@ header h1 {
 }
 
 .intro {
-    margin: 120px;
+    padding-top: 120px;
+    padding-bottom: 48px;
     text-align: center;
 }
 
