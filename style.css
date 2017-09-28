@@ -5,7 +5,10 @@ header {
     height: 48px;
     width: 100%;
     line-height: 0px;
-    
+}
+
+body {
+    background-color: #FCFCFC;
 }
 
 header h1 {
