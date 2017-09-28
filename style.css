@@ -1,21 +1,47 @@
+header {
+    background-color: black;
+    position: fixed;
+    top: 0;
+    height: 48px;
+    width: 100%;
+    line-height: 0px;
+    
+}
 
-
+header h1 {
+    text-align: center;
+    font-family: geo;
+    font-size: 36px;
+    letter-spacing: 12px;
+    color: lightgray;
+}
 
 .intro {
-    padding:60px 0px;
+    margin: 120px;
+    text-align: center;
+}
+
+.intro h2 {
+    display: inline;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border: solid 2px;
+    padding: 12px;  
+}
+
+.intro h3 {
+    padding-top: 12px;
+    font-size: 12px;
+    
 
 }
 
-.intro h1{
-    border:solid black 2px;
-    width: 120px;
-    margin:auto;
+.projects {
     text-align: center;
-    font-family: geo;
-    font-size: 36px
 }
 
 .projects img {
-    width: 33%;
-    margin: 1px;
+    width: 30%;
+    min-width: 240px;
+    
 }
+
