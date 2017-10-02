@@ -14,14 +14,14 @@ body {
 
 header h1 {
     text-align: center;
-    font-family: Geo;
+    font-family: 'Geo';
     font-size: 36px;
     letter-spacing: 12px;
     color: rgb(231, 231, 231);
 }
 
 .intro {
-    font-family: Exo;
+    font-family: 'Exo';
     padding-top: 120px;
     padding-bottom: 48px;
     text-align: center;
