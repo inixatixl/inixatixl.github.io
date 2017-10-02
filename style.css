@@ -2,8 +2,9 @@ header {
     background-color: black;
     position: fixed;
     top: 0;
+    left: 2%;
     height: 48px;
-    width: 100%;
+    width: 96%;
     line-height: 0px;
 }
 
@@ -16,10 +17,11 @@ header h1 {
     font-family: Geo;
     font-size: 36px;
     letter-spacing: 12px;
-    color: lightgray;
+    color: rgb(231, 231, 231);
 }
 
 .intro {
+    font-family: Exo;
     padding-top: 120px;
     padding-bottom: 48px;
     text-align: center;
@@ -27,7 +29,8 @@ header h1 {
 
 .intro h2 {
     display: inline;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 12px;
+    
     border: solid 2px;
     padding: 12px;  
 }
