@@ -1,3 +1,20 @@
+@font-face {
+    font-family: geo;
+    src: url('./fonts/geo.ttf') format('truetype');
+
+}
+
+@font-face {
+    font-family: exo;
+    src: url('./fonts/exo-thin.ttf') format('truetype');
+
+}
+
+
+body {
+    background-color: #FCFCFC;
+}
+
 header {
     background-color: black;
     position: fixed;
@@ -8,22 +25,19 @@ header {
     line-height: 0px;
 }
 
-body {
-    background-color: #FCFCFC;
-}
-
 header h1 {
     text-align: center;
-    font-family: 'Geo';
+    font-family: geo;
     font-size: 36px;
     letter-spacing: 12px;
     color: rgb(231, 231, 231);
 }
 
 .intro {
-    font-family: 'Exo';
+    font-family: exo;
+    font-weight: 400;
     padding-top: 120px;
-    padding-bottom: 48px;
+    padding-bottom: 72px;
     text-align: center;
 }
 
@@ -31,16 +45,10 @@ header h1 {
     display: inline;
     letter-spacing: 12px;
     
-    border: solid 2px;
+    border: solid 1px;
     padding: 12px;  
 }
 
-.intro h3 {
-    padding-top: 12px;
-    font-size: 12px;
-    
-
-}
 
 .projects {
     text-align: center;
@@ -50,5 +58,12 @@ header h1 {
     width: 24%;
     min-width: 240px;
     
+}
+
+.outro h3 {
+    text-align: center;
+    padding-top: 12px;
+    font-family: exo;
+    font-size: 12px;
 }
 
