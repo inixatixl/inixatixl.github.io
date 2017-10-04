@@ -66,3 +66,12 @@ header h1 {
     font-size: 12px;
 }
 
+footer {
+    text-align: center;
+}
+
+footer img {
+    height: 12px;
+    width: 12px;
+
+}
