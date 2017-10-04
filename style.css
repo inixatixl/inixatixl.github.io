@@ -34,17 +34,16 @@ header h1 {
 }
 
 .intro {
-    font-family: exo;
-    font-size: 12px;
     padding-top: 120px;
     padding-bottom: 72px;
     text-align: center;
 }
 
 .intro h2 {
+    font-family: exo;
     display: inline;
     letter-spacing: 12px;
-    
+    font-size: 12px;
     border: solid 1px;
     padding: 12px;  
 }
