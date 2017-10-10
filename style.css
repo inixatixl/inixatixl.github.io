@@ -1,78 +1,65 @@
 @font-face {
     font-family: geo;
     src: url('./fonts/geo.ttf') format('truetype');
-
 }
 
 @font-face {
     font-family: exo;
     src: url('./fonts/exo-thin.ttf') format('truetype');
-
 }
 
 
 body {
     background-color: rgb(235, 235, 235);
-}
-
-header {
-    background-color: black;
-    position: fixed;
-    top: 0;
-    left: 2%;
-    height: 48px;
-    width: 96%;
-    line-height: 0px;
-}
-
-header h1 {
     text-align: center;
-    font-family: geo;
-    font-size: 36px;
-    letter-spacing: 12px;
-    color: rgb(231, 231, 231);
 }
 
 .intro {
     padding-top: 120px;
-    padding-bottom: 72px;
-    text-align: center;
+    padding-bottom: 120px;
 }
 
-.intro h2 {
+.intro span {
     font-family: exo;
-    display: inline;
-    letter-spacing: 12px;
+    font-weight: bold;
     font-size: 12px;
+    letter-spacing: 12px;
     border: solid 1px;
     padding: 12px;  
 }
 
 
-.projects {
-    text-align: center;
-}
-
 .projects img {
-    width: 24%;
-    min-width: 240px;
+    width: 144px;
     
 }
 
-.outro h3 {
-    text-align: center;
-    padding-top: 12px;
-    font-family: exo;
-    font-size: 12px;
+.outro {
+    padding-top: 120px;
+    padding-bottom: 120px;
 }
 
+
+.outro span{
+    font-family: exo;
+    display: inline;
+    letter-spacing: 12px;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px;  
+}
+
+
+
 footer {
-    text-align: center;
+    bottom: 0;
+}
+
+footer p {
     font-family: geo;
+    
 }
 
 footer img {
     height: 12px;
-    width: 12px;
-
 }
