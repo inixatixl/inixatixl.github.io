@@ -41,19 +41,15 @@ main {
 
 .projects {
     display: flex;
-    width: 36%;
+    width: 48%;
     justify-content: center;    
     flex-wrap: wrap;
 }
 
 
-
-
 .projects img {
     width: 144px;    
 }
-
-
 
 .outro {
     padding-top: 120px;
@@ -68,7 +64,6 @@ main {
     font-weight: bold;
     padding: 12px;  
 }
-
 
 
 footer {
