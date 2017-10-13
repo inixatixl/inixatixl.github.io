@@ -11,11 +11,14 @@
 
 body {
     background-color: rgb(235, 235, 235);
-    text-align: center;
+}
+
+main {
+    text-align: center;    
 }
 
 .intro {
-    padding-top: 120px;
+    padding-top: 120px; 
     padding-bottom: 120px;
 }
 
@@ -29,16 +32,33 @@ body {
 }
 
 
-.projects img {
-    width: 144px;
-    
+
+.portfolio {
+    display: flex;
+    justify-content: center;
 }
+
+
+.projects {
+    display: flex;
+    width: 36%;
+    justify-content: center;    
+    flex-wrap: wrap;
+}
+
+
+
+
+.projects img {
+    width: 144px;    
+}
+
+
 
 .outro {
     padding-top: 120px;
     padding-bottom: 120px;
 }
-
 
 .outro span{
     font-family: exo;
@@ -52,14 +72,11 @@ body {
 
 
 footer {
-    bottom: 0;
+    font-family: geo;        
+    text-align: center;
 }
 
-footer p {
-    font-family: geo;
-    
-}
 
-footer img {
+footer img {   
     height: 12px;
 }
