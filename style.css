@@ -41,14 +41,15 @@ main {
 
 .projects {
     display: flex;
-    width: 48%;
+    width: 48%;    
     justify-content: center;    
     flex-wrap: wrap;
 }
 
 
 .projects img {
-    width: 144px;    
+    display: flex;
+    width: 144px;
 }
 
 .outro {
