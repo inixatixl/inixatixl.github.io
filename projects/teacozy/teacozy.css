@@ -7,7 +7,6 @@ body {
     text-align: center;
 }
 
-
 header {
     border-bottom: seashell solid 1px;;
     position: fixed;
@@ -43,19 +42,25 @@ header nav a {
     color: seashell;
 }
 
-
+ 
 main {
-    border: pink solid;
     padding-top: 70px;
     display: flex;
     justify-content: center;
 }
 
+#mission, #featured, #locations {
+    position: relative;
+    bottom:36px;
+    visibility: hidden;
+    
+}
+
 main .queen {
     flex-direction: column;
     display: flex;
-    justify-content: center;    
-    border: indianred solid;
+    align-items: center;
+    
 }
 
 main .queen .mission {
@@ -83,27 +88,88 @@ main .queen .mission .missionhold * {
 }
 
 main .queen .featured {
-    border: slateblue solid;
     width: 1000px;
     
 }
+
 main .queen .featured img {
     height: 200px;
     width: 300px;  
 }
     
-main .queen .featured .feathead {
-    border: gold solid;
-}
-
 main .queen .featured  .feattoprow{
     display: flex;
-    border: darkcyan solid;
     justify-content: space-around;
+}
+
+main .queen .featured .feattoprow *{
+  padding:0px 6px;
+  padding-bottom: 10px;
+}
+
+main .queen .featured .feattoprow h4{
+  margin:0px;
 }
 
 main .queen .featured .featbottomrow{
     display: flex;
-    justify-content: space-around;    
-    border: grey solid;
+    justify-content: center;    
+}
+
+main .queen .featured .featbottomrow *{
+    padding:0px 6px;
+    padding-bottom: 10px;
+}
+
+main .queen .featured .featbottomrow h4{
+    margin:0px;
+}
+
+main .queen .locations {
+    background-image: url(./locback.jpg);
+    height:500px;
+    width:1200px;
+}
+
+main .queen .lochead {
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+main .queen .lochead h2 {
+    margin: 0px;
+    padding: 80px 0px 15px;
+    
+}
+
+main .queen .lochold {
+    display: flex;
+    justify-content: center;
+}
+
+main .queen .lochold .ebayside {
+    margin: 0px 40px;
+}
+
+main .queen .lochold * {
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+   
+}
+
+main .queen .contact {
+  height: 200px;
+}
+
+main .queen .contact * {
+  margin-top: 12px; 
+}
+  
+
+footer {
+  text-align: left;
+  margin-left: 20px;
+  
 }
