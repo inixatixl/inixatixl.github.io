@@ -1,0 +1,109 @@
+body {
+    font-family: Helvetica;
+    font-size:22px;
+    color:seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+header {
+    border-bottom: seashell solid 1px;;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 69px;
+    background-color: black;
+    z-index: 1;
+}
+
+header .logo {
+    display: flex;
+    flex: 1;
+    padding-left: 10px;
+}
+
+header .logo img {
+    height: 50px;
+    
+}
+
+header nav {
+    width:360px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 12px;
+}
+
+header nav a {
+    display: flex;
+    color: seashell;
+}
+
+
+main {
+    border: pink solid;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+main .queen {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;    
+    border: indianred solid;
+}
+
+main .queen .mission {
+    background-image: url(./missback.jpg);
+    width: 1200px;
+    height:700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main .queen .mission .missionhold {
+    width: 1200px;
+    background-color: black;
+    height: 96px;
+    position: relative;
+    top: 68px;    
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main .queen .mission .missionhold * {
+    margin: 6px;
+}
+
+main .queen .featured {
+    border: slateblue solid;
+    width: 1000px;
+    
+}
+main .queen .featured img {
+    height: 200px;
+    width: 300px;  
+}
+    
+main .queen .featured .feathead {
+    border: gold solid;
+}
+
+main .queen .featured  .feattoprow{
+    display: flex;
+    border: darkcyan solid;
+    justify-content: space-around;
+}
+
+main .queen .featured .featbottomrow{
+    display: flex;
+    justify-content: space-around;    
+    border: grey solid;
+}
