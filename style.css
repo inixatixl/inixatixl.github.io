@@ -41,7 +41,7 @@ main {
 
 .projects {
     display: flex;
-    width: 48%;    
+    width: 72%;    
     justify-content: center;    
     flex-wrap: wrap;
 }
