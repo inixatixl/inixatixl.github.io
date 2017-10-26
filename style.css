@@ -34,24 +34,28 @@ main {
 
 
 .portfolio {
+    border: gold solid;
     display: flex;
     justify-content: center;
+    width:98%;
+
+    
+    
+
 }
 
 
 .projects {
-    display: flex;
-    width: 72%;    
-    justify-content: center;    
-    flex-wrap: wrap;
+
+
+    
 }
 
 
 .projects img {
-    display: flex;
-    width: 144px;
+    width: 12%;
 }
-
+    
 .outro {
     padding-top: 120px;
     padding-bottom: 120px;
