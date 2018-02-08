@@ -1,8 +1,0 @@
-Tigerwood
-background rgb(48,48,48)
-text rgb(240,240,240)
-
-
-inix
-background	 rgb(48,48,132)
-text	rgb(255,255,255)

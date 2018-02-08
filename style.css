@@ -13,62 +13,8 @@ body {
     background-color: rgb(235, 235, 235);
 }
 
-main {
-    text-align: center;    
-}
-
-.intro {
-    padding-top: 120px; 
-    padding-bottom: 120px;
-}
-
-.intro span {
-    font-family: exo;
-    font-weight: bold;
-    font-size: 12px;
-    letter-spacing: 12px;
-    border: solid 1px;
-    padding: 12px;  
-}
 
 
-
-.portfolio {
-    border: gold solid;
-    display: flex;
-    justify-content: center;
-    width:98%;
-
-    
-    
-
-}
-
-
-.projects {
-
-
-    
-}
-
-
-.projects img {
-    width: 12%;
-}
-    
-.outro {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-
-.outro span{
-    font-family: exo;
-    display: inline;
-    letter-spacing: 12px;
-    font-size: 12px;
-    font-weight: bold;
-    padding: 12px;  
-}
 
 
 footer {
