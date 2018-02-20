@@ -1,13 +1,3 @@
-@font-face {
-    font-family: geo;
-    src: url('./fonts/geo.ttf') format('truetype');
-}
-
-@font-face {
-    font-family: exo;
-    src: url('./fonts/exo-thin.ttf') format('truetype');
-}
-
 
 body {
     background-color: rgb(235, 235, 235);
@@ -16,13 +6,12 @@ body {
 
 
 
-
 footer {
-    font-family: geo;        
+    font-family: geo;
     text-align: center;
 }
 
 
-footer img {   
+footer img {
     height: 12px;
 }
