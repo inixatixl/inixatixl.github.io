@@ -1,17 +1,33 @@
 
 body {
-    background-color: rgb(235, 235, 235);
+  background-color: rgb(235, 235, 235);
 }
+
+
+header {
+  border: solid 1px indigo;
+  padding: 12px;
+  text-align: center;
+}
+
+
+
+main img {
+  height: 12px;
+}
+
+
 
 
 
 
 footer {
-    font-family: geo;
-    text-align: center;
+  font-family: geo;
+  position: fixed;
+  bottom: 0;
 }
 
 
 footer img {
-    height: 12px;
+  height: 12px;
 }
