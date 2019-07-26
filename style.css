@@ -4,28 +4,6 @@ body {
 }
 
 
-header {
-  border: solid 1px indigo;
-  padding: 12px;
-  text-align: center;
-}
 
 
 
-main img {
-  height: 12px;
-}
-
-
-
-
-footer {
-  font-family: geo;
-  position: fixed;
-  bottom: 0;
-}
-
-
-footer img {
-  height: 12px;
-}
