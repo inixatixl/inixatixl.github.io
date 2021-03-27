@@ -1,2 +1,0 @@
-# inixatixl.github.io
-website
